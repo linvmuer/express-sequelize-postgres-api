@@ -1,0 +1,40 @@
+// curl --data "username=linvalone&password=one4all&level=employee" http://localhost:3000/user/signup
+curl --data "username=linvalone&password=one4all&level=employee" http://localhost:3000/user/login
+
+
+curl -H {"Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxpbnZhbG9IjoxNTcwNTIyNDcwLCJleHAiOjE1NzA1MjYwNzB9.yk_IGPvWwRmZmtvgFZJnbZY-gcqx5VKD7gYBQ2-qK1Y"} http://localhost:3000/notifications
+"name":"tempvalue",
+"supervisorName":"tempvalue",
+"departmentName":"tempvalue",
+"leaveType":"tempvalue",
+"leaveDate":"tempvalue",
+"returnDate":"tempvalue",
+"attachment":"tempvalue",
+"dateFiled":"tempvalue",
+"lineManAppr":"tempvalue",
+"hrAppr":"tempvalue",
+"empId":"tempvalue",
+
+"training_name":"the bowry testing stuff",
+"start_date":"the bowry testing stuff",
+"end_date":"the bowry testing stuff",
+"attachment":"the bowry testing stuff"
+
+
+
+"project_name":"somevalue",
+"task_name":"somevalue",
+"assignee":"somevalue",
+"due_date":"somevalue",
+"assigner":"somevalue",
+"updates":"somevalue",
+"status":"somevalue"
+
+
+
+
+
+
+
+
+curl -X PUT -H "Content-Type: application/json" -d '{"lineman":"19"}' "http://localhost:3000/hrapp/1/line"
